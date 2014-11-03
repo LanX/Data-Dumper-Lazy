@@ -9,6 +9,8 @@ WriteMakefile(
     AUTHOR       => 'Rolf Michael Langsdorf (lanx@cpan.org)',
     ABSTRACT     => 'Reliably dump variables with names',
     PREREQ_PM    => {
-                     'Test::Simple' => 0.44,
-                    },
+	'Test::Simple' => 0.44,
+	'Test::More'   => 0,
+	'B::Deparse'   => 0,
+    },
 );
