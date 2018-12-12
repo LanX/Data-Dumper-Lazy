@@ -1,0 +1,54 @@
+{
+   "abstract" : "Easily dump variables with names",
+   "author" : [
+      "Rolf Michael Langsdorf (lanx@cpan.org)"
+   ],
+   "dynamic_config" : 0,
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Data-Dumper-Lazy",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+             "Test::Simple": "0.44",
+             "Test::More": "0",
+             "B::Deparse": "0",
+             "Data::Dumper": "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "CPAN::Meta::YAML" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Data::Dumper::Lazy" : {
+         "file" : "lib/Data/Dumper/Lazy.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/LanX/Data-Dumper-Lazy/issues"
+      },
+      "homepage" : "http://github.com/LanX/Data-Dumper-Lazy",
+      "repository" : {
+         "type" : "git",
+         "url" : "http://github.com/LanX/Data-Dumper-Lazy.git",
+         "web" : "http://github.com/LanX/Data-Dumper-Lazy"
+      }
+   },
+   "version" : "0.01"
+}
