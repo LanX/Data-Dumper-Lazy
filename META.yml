@@ -17,10 +17,10 @@ provides:
     file: lib/Data/Dumper/Lazy.pm
     version: '0.01'
 requires:
-	Test::Simple: '0.44'
-	Test::More: '0'
+  Test::Simple: '0.44'
+  Test::More: '0'
   B::Deparse: '0'
-	Data::Dumper: '0'
+  Data::Dumper: '0'
 resources:
   bugtracker: http://github.com/LanX/Data-Dumper-Lazy/issues
   homepage: http://github.com/LanX/Data-Dumper-Lazy
